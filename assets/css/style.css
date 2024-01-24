@@ -920,7 +920,7 @@ button:focus {
 
 .feature-area .feature-img {
   position: relative;
-  background-image: url("../img/home-one/feature-bg.jpg");
+  background-image: url("../img/feature-bg.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1169,7 +1169,7 @@ button:focus {
 
 .review-area .review-bg {
   position: relative;
-  background-image: url("../img/home-one/review/review-right.jpg");
+  background-image: url("../img/review/review-right.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
