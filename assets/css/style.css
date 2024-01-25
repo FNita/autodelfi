@@ -673,7 +673,7 @@ button:focus {
 /*-- End Service --*/
 /*-- Quality --*/
 .quality-area {
-  background-color: #000000;
+  background-color: #e9e9e9;
   position: relative;
 }
 
@@ -749,61 +749,13 @@ button:focus {
   margin-bottom: 30px;
 }
 
-.quality-content .section-title h2 {
-  color: #ffffff;
-}
-
 .quality-content .section-title p {
   margin-left: 0;
   margin-top: 18px;
-  color: #ffffff;
 }
 
 .quality-content .cmn-btn a {
   padding: 12px 20px;
-}
-
-.quality-content img {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  opacity: .10;
-  -webkit-animation: quality-tyre 10s infinite linear;
-  animation: quality-tyre 10s infinite linear;
-}
-
-@-webkit-keyframes quality-tyre {
-  0% {
-    -webkit-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-  }
-
-  50% {
-    -webkit-transform: translate(-100px, 0px);
-    transform: translate(-100px, 0px);
-  }
-
-  100% {
-    -webkit-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-  }
-}
-
-@keyframes quality-tyre {
-  0% {
-    -webkit-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-  }
-
-  50% {
-    -webkit-transform: translate(-100px, 0px);
-    transform: translate(-100px, 0px);
-  }
-
-  100% {
-    -webkit-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-  }
 }
 
 /*-- End Quality --*/
